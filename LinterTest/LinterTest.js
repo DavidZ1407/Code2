@@ -15,3 +15,4 @@ var LinterTest;
         return result;
     }
 })(LinterTest || (LinterTest = {}));
+//# sourceMappingURL=LinterTest.js.map
