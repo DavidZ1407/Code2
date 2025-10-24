@@ -1,17 +1,12 @@
 export namespace Droid {
 
-    type Vektor = {
-        x: number,
-        y: number,
-        z: number,
-    }
     interface Command {
         module: string,
         method: string,
         data: string,
     }
 
-
+    // let number: number = 0
     let random: number = 0
 
 

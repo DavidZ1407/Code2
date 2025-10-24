@@ -1,5 +1,6 @@
 export var Droid;
 (function (Droid) {
+    // let number: number = 0
     let random = 0;
     function getCommand() {
         const command = {
