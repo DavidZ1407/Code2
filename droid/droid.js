@@ -1,7 +1,14 @@
-"use strict";
-var Droid;
+export var Droid;
 (function (Droid) {
-    function getComand() {
+    function getCommand() {
+        const command = {
+            module: "Chassis",
+            method: "move",
+            data: "left",
+        };
+        console.log(command);
+        return command;
     }
+    Droid.getCommand = getCommand;
 })(Droid || (Droid = {}));
 //# sourceMappingURL=droid.js.map
