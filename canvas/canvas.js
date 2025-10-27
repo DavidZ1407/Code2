@@ -13,7 +13,7 @@ var CanvasAnimation;
         if (!canvas)
             return;
         crc2 = canvas.getContext("2d");
-        const totalShapes = 150;
+        const totalShapes = 100;
         for (let i = 0; i < totalShapes; i++) {
             shapes.push({
                 x: Math.random() * canvas.width,
@@ -79,7 +79,7 @@ var CanvasAnimation;
         crc2.globalAlpha = 1;
     }
     function randomShapeType() {
-        const types = ["circle", "abstract", "wave", "ring"];
+        const types = ["circle", "wave", "ring"];
         return types[Math.floor(Math.random() * types.length)];
     }
     function randomColor() {

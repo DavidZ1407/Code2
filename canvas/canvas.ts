@@ -29,7 +29,7 @@ namespace CanvasAnimation {
         if (!canvas) return;
         crc2 = canvas.getContext("2d") as CanvasRenderingContext2D;
 
-        const totalShapes = 150;
+        const totalShapes = 100;
         for (let i = 0; i < totalShapes; i++) {
             shapes.push({
                 x: Math.random() * canvas.width,
