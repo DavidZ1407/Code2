@@ -1,4 +1,4 @@
-namespace Asteroids_1 {
+namespace AsteroidsInheritance {
     export class Vector {
         x!: number;
         y!: number;
@@ -28,6 +28,10 @@ namespace Asteroids_1 {
 
             this.set(Math.cos(direction), Math.sin(direction));
             this.scale(length);
+        }
+
+        copy(): Vector {
+            return new Vector(this.x, this.y);
         }
     }
 }
